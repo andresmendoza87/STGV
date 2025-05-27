@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Edit3, MessageSquare, MapPin, ShieldCheck } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 
 const CitizenParticipationSection = () => {
   const participationFeatures = [

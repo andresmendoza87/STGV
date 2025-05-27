@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { BellRing, CalendarClock, AlertOctagon, FileWarning, MessageCircle as MessageCircleWarning } from 'lucide-react';
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 
 const AlertsSection = () => {
   const alertTypes = [

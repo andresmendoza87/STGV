@@ -1,16 +1,16 @@
 import React from "react";
-import { Toaster } from "@/components/ui/toaster";
-import { useToast } from "@/components/ui/use-toast";
-import Navbar from "@/components/layout/Navbar";
-import HeroSection from "@/components/sections/HeroSection";
-import FeaturesSection from "@/components/sections/FeaturesSection";
-import AboutSection from "@/components/sections/AboutSection";
-import CitizenParticipationSection from "@/components/sections/CitizenParticipationSection";
-import DashboardSection from "@/components/sections/DashboardSection";
-import GisSection from "@/components/sections/GisSection";
-import AlertsSection from "@/components/sections/AlertsSection";
-import ContactSection from "@/components/sections/ContactSection";
-import Footer from "@/components/layout/Footer";
+import { Toaster } from "./components/ui/toaster";
+import { useToast } from "./components/ui/use-toast";
+import Navbar from "./components/layout/Navbar";
+import HeroSection from "./components/sections/HeroSection";
+import FeaturesSection from "./components/sections/FeaturesSection";
+import AboutSection from "./components/sections/AboutSection";
+import CitizenParticipationSection from "./components/sections/CitizenParticipationSection";
+import DashboardSection from "./components/sections/DashboardSection";
+import GisSection from "./components/sections/GisSection";
+import AlertsSection from "./components/sections/AlertsSection";
+import ContactSection from "./components/sections/ContactSection";
+import Footer from "./components/layout/Footer";
 
 const App = () => {
   const { toast } = useToast();
